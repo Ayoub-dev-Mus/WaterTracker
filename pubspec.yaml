@@ -1,0 +1,78 @@
+name: water_tracker
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  shared_preferences: any
+  fluttertoast: ^8.2.1
+  floor: ^1.4.2
+  fl_chart: ^0.62.0
+  flutter_local_notifications: ^14.0.0+1
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.10
+  rate_my_app: ^1.1.4
+  flutter_native_timezone: ^2.0.0
+  rxdart: ^0.27.7
+  google_mobile_ads: ^3.0.0
+  app_tracking_transparency: ^2.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^1.4.2
+  build_runner: ^2.3.3
+
+
+flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 600
+        - asset: fonts/Roboto-Black.ttf
+          weight: 700
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/icons/ic_clock_reminder.png
+    - assets/icons/water/
+    - assets/icons/water/ic_empty_100.webp
+    - assets/icons/water/ic_empty_150.webp
+    - assets/icons/water/ic_empty_250.webp
+    - assets/icons/water/ic_empty_500.webp
+    - assets/icons/water/ic_fill_100.webp
+    - assets/icons/water/ic_fill_150.webp
+    - assets/icons/water/ic_fill_250.webp
+    - assets/icons/water/ic_fill_500.webp
+    - assets/icons/water/tab_drinkwater.png
+    - assets/icons/water/tab_drinkwater_active.png
+    - assets/icons/water/tab_reminder.png
+    - assets/icons/water/tab_reminder_active.png
+    - assets/icons/water/tab_settings.png
+    - assets/icons/water/tab_settings_active.png
+
+
